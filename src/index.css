@@ -409,3 +409,38 @@ Cocktail
     height: 5em;
   }
 }
+
+
+
+/* 
+=========
+Small Screen 
+=========
+*/
+
+@media screen and (max-width: 485px) {
+  .logo {
+    width: 8rem;
+  }
+  .nav-links a {
+    font-size: 0.8rem;
+  }
+  .form-control label {
+    font-size: 0.8rem;
+  }
+  .form-control input {
+    font-size: 0.8rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+  .cocktail img {
+    height: 10rem;
+  }
+  .cocktail-footer h3 {
+    font-size: 1.5rem;
+  }
+  .cocktails-center {
+    width: 80%;
+  }
+}
